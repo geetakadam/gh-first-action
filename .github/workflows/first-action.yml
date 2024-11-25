@@ -1,0 +1,10 @@
+name : First Wok Flow
+on : workflow_dispatch
+jobs: 
+  first-job : 
+    runs-on : ubuntu-20.04
+    steps : 
+      - name : print greeting
+        run :   echo "Hello World !!"
+      - name : print goodbye
+        run :   echo "Bye !! Have a nice day"    
